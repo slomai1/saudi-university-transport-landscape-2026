@@ -1,0 +1,75 @@
+{
+  "description": "Anonymized database of university transport platforms in Saudi Arabia — 2026",
+  "disclaimer": "All names are aliases. Data compiled from public sources, job postings, trademark registries, and interviews.",
+  "tier1": [
+    {
+      "alias": "Platform-A",
+      "label": "The Technical Leader",
+      "founded": 2021,
+      "city": "Riyadh",
+      "clients": 8,
+      "teamSize": 40,
+      "fundingSAR": 18000000,
+      "strengths": ["First to market", "Full Banner integration", "Large team"],
+      "weaknesses": ["Slow feature velocity", "Overloaded support"],
+      "status": "Expanding to GCC — Saudi market insufficient for growth"
+    },
+    {
+      "alias": "Platform-B",
+      "label": "The Commercial Integrator",
+      "founded": 2022,
+      "city": "Jeddah",
+      "clients": 7,
+      "teamSize": 28,
+      "fundingSAR": 12000000,
+      "strengths": ["Payment gateway", "Western region coverage", "Sales excellence"],
+      "weaknesses": ["Technical product lags", "No live GPS"],
+      "status": "Vertical expansion — additional services to existing clients"
+    },
+    {
+      "alias": "Platform-C",
+      "label": "The Public Sector Specialist",
+      "founded": 2023,
+      "city": "Riyadh",
+      "clients": 6,
+      "teamSize": 22,
+      "fundingSAR": 8000000,
+      "strengths": ["Government relationships", "Deep compliance knowledge"],
+      "weaknesses": ["Outdated UI", "Weak mobile app"],
+      "status": "Stable — 3-5 year guaranteed government contracts"
+    }
+  ],
+  "tier2": [
+    { "alias": "Platform-D", "label": "Eastern", "city": "Dammam", "clients": 4, "strength": "Eastern Province dominance", "weakness": "Weak in Riyadh/Jeddah" },
+    { "alias": "Platform-E", "label": "Madinah", "city": "Madinah", "clients": 3, "strength": "Local relationships", "weakness": "Weak technical product" },
+    { "alias": "Platform-F", "label": "Northern", "city": "Tabuk", "clients": 2, "strength": "No competitor in region", "weakness": "Very limited market" },
+    { "alias": "Platform-G", "label": "Technical", "city": "Riyadh", "clients": 3, "strength": "Strong engineering team", "weakness": "Weak marketing" },
+    { "alias": "Platform-H", "label": "Female", "city": "Riyadh", "clients": 2, "strength": "Specialized focus", "weakness": "Narrow market" },
+    { "alias": "Platform-I", "label": "Private", "city": "Jeddah", "clients": 3, "strength": "Private university relationships", "weakness": "No public sector entry" },
+    { "alias": "Platform-J", "label": "Southern", "city": "Abha", "clients": 2, "strength": "Only southern platform", "weakness": "Weak infrastructure" }
+  ],
+  "tier3": [
+    { "alias": "Platform-K", "type": "Student project turned product", "clients": 1 },
+    { "alias": "Platform-L", "type": "Student project turned product", "clients": 1 },
+    { "alias": "Platform-M", "type": "Student project turned product", "clients": 0 },
+    { "alias": "Platform-N", "type": "Solo developer", "clients": 1 },
+    { "alias": "Platform-O", "type": "Solo developer", "clients": 0 },
+    { "alias": "Platform-P", "type": "Tech company expansion", "clients": 1 },
+    { "alias": "Platform-Q", "type": "Tech company expansion", "clients": 1 },
+    { "alias": "Platform-R", "type": "Tech company expansion", "clients": 0 },
+    { "alias": "Platform-S", "type": "Traditional transport co digitizing", "clients": 1 },
+    { "alias": "Platform-T", "type": "Traditional transport co digitizing", "clients": 0 }
+  ],
+  "featureMatrix": {
+    "features": ["Electronic Booking", "QR Ticket", "Live GPS Tracking", "Banner Integration", "Mada Payment", "Driver App", "WhatsApp Notifications", "Advanced Reports", "Multi-language AR/EN", "RLS + Audit Log", "Offline Mode", "External API"],
+    "tier1": [1, 1, 1, 1, 0.67, 1, 1, 1, 1, 0.67, 0.33, 0.67],
+    "tier2": [1, 0.86, 0.57, 0.43, 0.43, 0.71, 0.57, 0.71, 0.57, 0.14, 0, 0.14],
+    "tier3": [0.8, 0.5, 0.2, 0.1, 0.1, 0.3, 0.2, 0.1, 0.1, 0, 0, 0]
+  },
+  "rlsAuditLogGap": {
+    "platformsWithoutRLS": 18,
+    "totalPlatforms": 25,
+    "exposedStudentDataEstimate": "Thousands",
+    "riskLevel": "Critical"
+  }
+}

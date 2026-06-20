@@ -1,0 +1,136 @@
+{
+  "description": "Documented failure cases of university transport platforms in Saudi Arabia (2023-2026)",
+  "disclaimer": "All platform and individual names are aliases. Data from anonymized founder interviews, former employee accounts, and public records.",
+  "totalCases": 6,
+  "totalKnownLossesSAR": 9100000,
+  "estimatedTrueLossesIncludingOpportunityCostSAR": 24000000,
+  "cases": [
+    {
+      "id": 1,
+      "alias": "Al-Masar",
+      "founded": 2023,
+      "city": "Riyadh",
+      "teamSize": 4,
+      "fundingSAR": 1200000,
+      "durationMonths": 15,
+      "closedDate": "2024-04",
+      "primaryCause": "Banner integration failure",
+      "causeDetail": "Planned 3 months for university ERP integration. Actual time: 11 months. 70% of funding burned before first client. Team had zero prior education sector experience.",
+      "lessons": [
+        "University ERP integration is not a simple API — plan 8-14 months minimum",
+        "Personal relationships with university IT teams are the entry key",
+        "SAR 1.2M is insufficient runway — need SAR 2.5M+ minimum",
+        "A purely technical team (4 engineers, zero sales/marketing/PR) is not viable"
+      ]
+    },
+    {
+      "id": 2,
+      "alias": "Naqlah",
+      "founded": 2023,
+      "city": "Jeddah",
+      "teamSize": 1,
+      "fundingSAR": 300000,
+      "durationMonths": 16,
+      "closedDate": "2024-08",
+      "primaryCause": "Zero marketing and sales",
+      "causeDetail": "Solo founder spent 10 months building the 'perfect product' in isolation. Never met a potential client. Zero sales in 6 months post-launch.",
+      "lessons": [
+        "Build MVP, find first client before writing code",
+        "Spend 25% of time on customer discovery, not 100% on development",
+        "Solo founder = no one to challenge decisions or push different direction"
+      ]
+    },
+    {
+      "id": 3,
+      "alias": "Wusool",
+      "founded": 2024,
+      "city": "Dammam",
+      "teamSize": 3,
+      "fundingSAR": 3000000,
+      "durationMonths": 20,
+      "closedDate": "2025-12",
+      "primaryCause": "Suicidal price war",
+      "causeDetail": "Strategy: enter at SAR 99/month (market: SAR 349-749), capture market share, raise prices later. Lost ~SAR 200 per subscription. When attempting to raise to SAR 249, 2 of 3 universities withdrew. B2B clients are not loyal to the cheapest — they're loyal to trust.",
+      "lessons": [
+        "Price wars fail in B2B — relationships and trust matter more than price",
+        "Client switching costs (data migration, staff training) exceed price differences",
+        "Unit economics must be profitable from day one or have clear 12-18 month path"
+      ]
+    },
+    {
+      "id": 4,
+      "alias": "Tariq Al-Jami'ah",
+      "founded": 2024,
+      "city": "Riyadh",
+      "teamSize": 11,
+      "fundingSAR": 4500000,
+      "durationMonths": 18,
+      "closedDate": "2025-06",
+      "primaryCause": "Founding team collapse",
+      "causeDetail": "CTO wanted 'technically advanced architecture.' COO wanted 'rapid commercial launch.' Dispute turned personal. CTO resigned with 2 loyal developers. Product stalled 6 months. 6 of 11 total employees resigned within 3 months.",
+      "lessons": [
+        "Founders' agreement is more important than the product idea",
+        "Define final decision authority per domain before founding",
+        "Single-person technical dependency = existential risk",
+        "Culture cascades — founder disputes poison the entire team"
+      ]
+    },
+    {
+      "id": 5,
+      "alias": "Uboor",
+      "founded": 2024,
+      "city": "Riyadh",
+      "teamSize": 3,
+      "fundingSAR": 800000,
+      "durationMonths": 12,
+      "closedDate": "2025-02",
+      "primaryCause": "Fatal security breach",
+      "causeDetail": "IDOR vulnerability in booking API. Attacker accessed: 700 female students' full names, phone numbers, daily trip schedules, pickup point addresses. University discovered breach from student complaint — not from platform's monitoring. Contract canceled immediately. NCA investigation opened.",
+      "lessons": [
+        "Security is not a feature — it is your license to exist in student transport",
+        "RLS, AES-256 encryption, audit log are minimum requirements — not optional",
+        "Zero penetration testing before launch = guaranteed failure",
+        "In female student transport, a single breach = permanent reputation destruction"
+      ]
+    },
+    {
+      "id": 6,
+      "alias": "Mursal",
+      "founded": 2023,
+      "city": "Riyadh",
+      "teamSize": 2,
+      "fundingSAR": 200000,
+      "durationMonths": 10,
+      "closedDate": "2024-03",
+      "primaryCause": "Fatal timing + partial product",
+      "causeDetail": "Entered during peak competition (2024 — 6 new platforms entered simultaneously). Product was a single feature (driver app) that integrated platforms could easily add for free. Grant-dependent with zero revenue from day one. Regulatory changes added licensing complexity they were unprepared for.",
+      "lessons": [
+        "If your 'product' can be built by a competitor in 2 weeks, you're a feature — not a company",
+        "Revenue from day one is critical — grants alone are not a business model",
+        "Track regulatory changes — transport licensing requirements evolve"
+      ]
+    }
+  ],
+  "recurringPatterns": [
+    {
+      "pattern": "Complexity Underestimation",
+      "frequency": "4 of 6",
+      "description": "Platforms planned 2-4 months for university integration; reality was 8-14 months"
+    },
+    {
+      "pattern": "Insufficient Runway",
+      "frequency": "5 of 6",
+      "description": "Funding depleted before reaching first client or break-even. Average time to financial collapse: 14 months"
+    },
+    {
+      "pattern": "Market Isolation",
+      "frequency": "4 of 6",
+      "description": "Excellent technical products built in a vacuum — zero client relationships, zero market validation"
+    },
+    {
+      "pattern": "Team Problems",
+      "frequency": "3 of 6",
+      "description": "Founder disputes, single-person dependency, missing complementary skills"
+    }
+  ]
+}

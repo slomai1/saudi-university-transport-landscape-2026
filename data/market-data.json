@@ -1,0 +1,72 @@
+{
+  "reportTitle": "Saudi University Transport Market Data — 2026",
+  "generated": "2026-06-21",
+  "methodology": "Compiled from public records, anonymized interviews (n=15 transport company directors, n=6 university IT managers), MAGNiTT database, and market analysis",
+  "marketOverview": {
+    "totalMarketSizeSAR": 1200000000,
+    "totalMarketSizeYear": 2025,
+    "activePlatforms": 25,
+    "addressableInstitutions": {
+      "publicUniversities": 28,
+      "privateUniversitiesAndColleges": 30,
+      "total": 58
+    },
+    "institutionsWithSmartTransport": 45,
+    "institutionsWithoutSmartTransport": 13,
+    "penetrationRate": 0.78
+  },
+  "marketHistory": [
+    { "year": 2020, "marketSizeSAR": 520000000, "growthPct": null, "platformCount": 5 },
+    { "year": 2021, "marketSizeSAR": 610000000, "growthPct": 17, "platformCount": 8 },
+    { "year": 2022, "marketSizeSAR": 740000000, "growthPct": 21, "platformCount": 12 },
+    { "year": 2023, "marketSizeSAR": 880000000, "growthPct": 19, "platformCount": 18 },
+    { "year": 2024, "marketSizeSAR": 1050000000, "growthPct": 19, "platformCount": 22 },
+    { "year": 2025, "marketSizeSAR": 1200000000, "growthPct": 14, "platformCount": 25 }
+  ],
+  "investmentHistory": [
+    { "year": 2021, "deals": 2, "totalFundingSAR": 4000000, "avgDealSizeSAR": 2000000 },
+    { "year": 2022, "deals": 4, "totalFundingSAR": 14000000, "avgDealSizeSAR": 3500000 },
+    { "year": 2023, "deals": 7, "totalFundingSAR": 32000000, "avgDealSizeSAR": 4600000 },
+    { "year": 2024, "deals": 5, "totalFundingSAR": 18000000, "avgDealSizeSAR": 3600000 },
+    { "year": 2025, "deals": 3, "totalFundingSAR": 8000000, "avgDealSizeSAR": 2700000 },
+    { "year": 2026, "deals": 1, "totalFundingSAR": 2500000, "avgDealSizeSAR": 2500000, "note": "H1 only" }
+  ],
+  "marketTiers": [
+    { "tier": 1, "label": "Market Leaders", "count": 3, "marketSharePct": 48, "avgClients": 7, "monthlyPriceRangeSAR": [749, 1499] },
+    { "tier": 2, "label": "Strong Competitors", "count": 7, "marketSharePct": 30, "avgClients": 3, "monthlyPriceRangeSAR": [499, 999] },
+    { "tier": 3, "label": "Small Players", "count": 10, "marketSharePct": 17, "avgClients": 1, "monthlyPriceRangeSAR": [199, 499] },
+    { "tier": 4, "label": "In Development", "count": 5, "marketSharePct": 5, "avgClients": 0, "monthlyPriceRangeSAR": null }
+  ],
+  "geographicDistribution": [
+    { "city": "Riyadh", "platforms": 14, "universities": 12, "saturation": "heavily saturated" },
+    { "city": "Jeddah", "platforms": 6, "universities": 6, "saturation": "saturated" },
+    { "city": "Dammam/Eastern", "platforms": 3, "universities": 4, "saturation": "balanced" },
+    { "city": "Madinah", "platforms": 1, "universities": 2, "saturation": "opportunity" },
+    { "city": "Makkah", "platforms": 1, "universities": 2, "saturation": "opportunity" },
+    { "city": "Abha/Southern", "platforms": 1, "universities": 2, "saturation": "opportunity" },
+    { "city": "Tabuk/Northern", "platforms": 1, "universities": 1, "saturation": "small market" }
+  ],
+  "entryCosts": {
+    "minimumTotalSAR": 2990000,
+    "averageTotalSAR": 5810000,
+    "breakdown": {
+      "corePlatform": { "minSAR": 500000, "avgSAR": 1200000 },
+      "bannerIntegration": { "minSAR": 300000, "avgSAR": 700000 },
+      "whatsappAndMada": { "minSAR": 150000, "avgSAR": 300000 },
+      "infrastructureAndSecurity": { "minSAR": 200000, "avgSAR": 500000 },
+      "devTeamEighteenMonths": { "minSAR": 1440000, "avgSAR": 2160000 },
+      "marketingYearOne": { "minSAR": 300000, "avgSAR": 700000 },
+      "legalAndLicensing": { "minSAR": 100000, "avgSAR": 250000 }
+    },
+    "timeToFirstClientMonths": { "min": 16, "max": 29 }
+  },
+  "saturationIndicators": [
+    { "indicator": "Growth Deceleration", "value": "21% (2022) → 14% (2025)" },
+    { "indicator": "CAC Increase", "value": "340% since 2024 (SAR 4,400 → SAR 15,000)" },
+    { "indicator": "ARPU Decline", "value": "SAR 18,000 (2023) → SAR 12,500 (2025)" },
+    { "indicator": "Platform Failure Rate", "value": "6 documented closures in 3 years" },
+    { "indicator": "Funding Decline", "value": "75% drop (SAR 32M → SAR 8M)" },
+    { "indicator": "Geographic Imbalance", "value": "56% of platforms in Riyadh (21% of universities)" },
+    { "indicator": "Product Homogeneity", "value": "80% of platforms offer identical core features" }
+  ]
+}
