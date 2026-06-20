@@ -169,7 +169,8 @@ University ERP integration (Ellucian Banner) is the single hardest technical bar
 └── reports/
     ├── market-size-analysis-2026.md   # Full market size & saturation report
     ├── platform-failures-analysis.md  # 6 failure cases deep-dive
-    └── banner-integration-barrier.md  # Technical barrier analysis
+    ├── banner-integration-barrier.md  # Technical barrier analysis
+    └── market-entry-assessment-2026.md # 15-point executive assessment (عربي)
 ```
 
 ---
