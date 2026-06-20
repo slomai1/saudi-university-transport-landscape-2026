@@ -181,15 +181,6 @@ University ERP integration (Ellucian Banner) is the single hardest technical bar
 - [MAGNiTT — Saudi Startup Investment Database](https://magnitt.com)
 - [Ellucian Banner — Official API Documentation](https://www.ellucian.com)
 - [National Cybersecurity Authority (NCA) — Education Sector Requirements](https://nca.gov.sa)
-
----
-
-## ⚠️ Disclaimer
-
-This repository is an independent research compilation for informational purposes. All platform names are anonymized. Data is sourced from public records, anonymized interviews, and market analysis. This is not investment advice. The author(s) may hold interests in the analyzed market.
-
----
-
 ## 📄 License
 
 MIT — © 2026 Independent Research. See [LICENSE](./LICENSE) for details.
